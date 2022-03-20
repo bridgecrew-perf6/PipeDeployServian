@@ -2,7 +2,7 @@ notes.txt
 
 .idea/
 
-venv/
+.venv/
 
 *.swp
 package-lock.json
