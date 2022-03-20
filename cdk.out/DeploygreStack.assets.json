@@ -1,0 +1,19 @@
+{
+  "version": "16.0.0",
+  "files": {
+    "ba8c27142a6a570a1886b2039c2d0bbc505335977fca2864686d7818283a17c0": {
+      "source": {
+        "path": "DeploygreStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "ba8c27142a6a570a1886b2039c2d0bbc505335977fca2864686d7818283a17c0.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
